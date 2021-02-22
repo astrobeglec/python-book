@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 3.5rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+p {
+    text-indent: 2vw;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1rem;
+    position: inherit;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: 90vw;
+    max-width: 1080px;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: #333;
+    background-color: #999;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2 rem;
+    width: 80vw;
+    max-width: 960px;
+}
+
+.mainmenu {
+    list-style-type: none;
+    margin: 0 auto;
+    font-size: 3rem;
+    width: 90vw;
+    max-width: 1080px;
+}
+
+.menulink {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #009;
+}
+
+.info {
+    position: relative;
+    float: left;
+    margin-left: 7.5vw;
+    width: 85vw;
+    background-color: #77F9;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.danger {
+    position: relative;
+    float: left;
+    margin-left: 7.5vw;
+    width: 85vw;
+    background-color: #F779;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+div.intextimg {
+    margin: 10px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+img.intextimg {
+    width: 10vw;
+    max-width: 100px;
+}
+
+.intexttext {
+    margin: 10px;
+    width: 85;
+    position: relative;
+    float: left;
+    text-align: justify;
+}
