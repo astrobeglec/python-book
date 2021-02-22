@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,33 @@
     <link rel="stylesheet" href="main.css">
     <title>Python3 для начинающих</title>
 </head>
+
 <body>
     <h1>Python3 для начинающих</h1>
     <p style="text-align: center;">Автор: Зыкин (astrobeglec) Сергей</p>
     <p style="text-align: center;">Лицензия книги: Creative Commons (BY SA NC) </p>
-    <p>Скачивая, читая или иным способом используя эту книгу Вы безоговорочно принимаете условия лицензии Creative Commons (BY SA NC). В частности Вы можете без ограничений просматривать, скачивать книгу, передавать её другим лицам с соблюдением следующих обязательных условий:</p>
-    <p><b>CC BY - Пользователь должен указать авторство произведения</b> - при использовании материалов книги нужно указать на автора и проставить действующую ссылку на исходный текст книги на сайте автора.</p>
-    <p><b>CC SA - Производные произведения обязательно должны распространяться на условиях этой же лицензии</b> - ввиду того, что проект полностью некоммерческий, то будет несправедливо, что кто-то будет зарабатывать на бесплатном продукте. Не стоит кормить паразитов.</p>
-    <p><b>CC NC - Запрещается использование произведения в целях получения прибыли</b> - книга предназначена для людей, которые только хотят попробовать себя в программировании и не должна служить основой для каких-либо курсов. Если Вы - квалифицированный специалист, то сами в состоянии написать подобную книгу и учить по ней. Если Вы - не специалист, то не стоит быть "инфоцыганином" и портить другим людям жизнь.</p>
-    <p  style="text-align: center;"><b>!!!ВНИМАНИЕ!!!</b> <br> Данная книга может быть использована в качестве основы для программ обучения <u>государственных и некоммерческих</u> учебных заведений <br><b>!!!ВНИМАНИЕ!!!</b></p>
+    <p>Скачивая, читая или иным способом используя эту книгу Вы безоговорочно принимаете условия лицензии Creative
+        Commons (BY SA NC). В частности Вы можете без ограничений просматривать, скачивать книгу, передавать её другим
+        лицам с соблюдением следующих обязательных условий:</p>
+    <p><b>CC BY - Пользователь должен указать авторство произведения</b> - при использовании материалов книги нужно
+        указать на автора и проставить действующую ссылку на исходный текст книги на сайте автора.</p>
+    <p><b>CC SA - Производные произведения обязательно должны распространяться на условиях этой же лицензии</b> - ввиду
+        того, что проект полностью некоммерческий, то будет несправедливо, что кто-то будет зарабатывать на бесплатном
+        продукте. Не стоит кормить паразитов.</p>
+    <p><b>CC NC - Запрещается использование произведения в целях получения прибыли</b> - книга предназначена для людей,
+        которые только хотят попробовать себя в программировании и не должна служить основой для каких-либо курсов. Если
+        Вы - квалифицированный специалист, то сами в состоянии написать подобную книгу и учить по ней. Если Вы - не
+        специалист, то не стоит быть "инфоцыганином" и портить другим людям жизнь.</p>
+    <p style="text-align: center;"><b>!!!ВНИМАНИЕ!!!</b> <br> Данная книга может быть использована в качестве основы для
+        программ обучения <u>государственных и некоммерческих</u> учебных заведений <br><b>!!!ВНИМАНИЕ!!!</b></p>
     <hr>
     <h2>Аннотация</h2>
-    <p>Дання книга предназначена для тех, кто думает о карьере в ИТ-сфере, в частности карьере программиста, и содержит исключительно базовые составляющие программирвоания на языке Python версии 3. Действующим, а тем более опытным разработчикам книга будет не интересна и если Вы программируете хотя бы год, то скорее всего ничего нового Вы здесь не увидите. В книге даются базовые знания о языке программирования, информация о получении справки, задания. Обучение выстраивается сперва на абстрактных примерах, а затем плавно переходит в тренировку навыков разработки четырех небольших приложений. Примерный срок обучения - от шести месяцев.</p>
+    <p>Дання книга предназначена для тех, кто думает о карьере в ИТ-сфере, в частности карьере программиста, и содержит
+        исключительно базовые составляющие программирвоания на языке Python версии 3. Действующим, а тем более опытным
+        разработчикам книга будет не интересна и если Вы программируете хотя бы год, то скорее всего ничего нового Вы
+        здесь не увидите. В книге даются базовые знания о языке программирования, информация о получении справки,
+        задания. Обучение выстраивается сперва на абстрактных примерах, а затем плавно переходит в тренировку навыков
+        разработки четырех небольших приложений. Примерный срок обучения - от шести месяцев.</p>
     <p></p>
     <p></p>
     <hr>
@@ -26,6 +42,9 @@
     <ul>
         <li class="mainmenu"><a href="#part0" class='menulink'>Предисловие</a></li>
         <li class="mainmenu"><a href="#part01" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Типографские соглашения</a></li>
+        <li class="mainmenu"><a href="#part01" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Как работать с книгой</a></li>
+        <li class="mainmenu"><a href="#part01" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Поддержка книги и автора</a>
+        </li>
         <li class="mainmenu"><a href="#part1" class='menulink'>Установка и настройка среды</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Интерпретатор Python3</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;IDLE</a></li>
@@ -34,24 +53,42 @@
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Git</a></li>
         <li class="mainmenu"><a href="#part2" class='menulink'>Базовые знания в программировании</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Как работает компьютер</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Общая теория
+                программирования</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Алгоритмы</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Типы данных</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str - строка</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int - целое число</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float - число с плавающей точкой</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dict - словарь</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;list - список </a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuple - кортеж</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set - множества</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str -
+                строка</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int -
+                целое число</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float -
+                число с плавающей точкой</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dict -
+                словарь</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;list -
+                список </a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuple -
+                кортеж</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set -
+                множества</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Структура кода</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Линейная</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Условия</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Циклы</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Функции</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лямбда-функции</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Классы</a></li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Линейная</a></li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Условия</a></li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Циклы</a></li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Функции</a></li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лямбда-функции</a>
+        </li>
+        <li class="mainmenu"><a href="#part11"
+                class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Классы</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Файлы</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Базы данных</a></li>
-        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Структура сетевых взаимодействий</a></li>
+        <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Структура сетевых
+                взаимодействий</a></li>
         <li class="mainmenu"><a href="#part3" class='menulink'>Консольное приложение PIM</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Базы данных</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Базы данных</a></li>
@@ -64,7 +101,8 @@
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Базы данных</a></li>
         <li class="mainmenu"><a href="#part11" class='menulink'>&nbsp;&nbsp;&nbsp;&nbsp;Базы данных</a></li>
         <li class="mainmenu"><a href="#part4" class='menulink'>Веб-сервис для изучения языков Виноградов</a></li>
-        <li class="mainmenu"><a href="#part5" class='menulink'>Веб-сервис для создания собственной базы данных Хран</a></li>
+        <li class="mainmenu"><a href="#part5" class='menulink'>Веб-сервис для создания собственной базы данных Хран</a>
+        </li>
         <li class="mainmenu"><a href="#part6" class='menulink'>Веб-сервис индивидуальной ячейки социальной сети</a></li>
     </ul>
     <hr><a name="part0"></a>
@@ -73,7 +111,7 @@
     <h3>Типографские соглашения <sup><a href="#menu" class='menulink'>Наверх</a></sup></h3>
     <p>В данной книге используются следующие типографские соглашения:</p>
     <pre class="code">
- Листинги кода печатаются тёмно серым моноширным шрифтом 
+ Листинги кода печатаются серым моноширным шрифтом 
  на светло серой "подложке". 
         
  Возможность копирования сознательно не добавлена. 
@@ -88,18 +126,24 @@
  отличатся от листингов в книге. 
 
     </pre>
-    <div class="info">
-        <div class='intextimg'><img class='intextimg' src="img/info.png" alt=""></div>
-        <div class="intexttext">Важные информационные сообщения</div>
+    <div class="inblock">
+        <div class="info">
+            <div class='intextimg'><img class='intextimg' src="img/info.png" alt=""></div>
+            <div class="intexttext">Важные информационные сообщения</div>
+        </div>
     </div>
-    <div class="danger">
-        <div class='intextimg'><img class='intextimg' src="img/danger.png" alt=""></div>
-        <div class="intexttext">Важные предупреждения о потенциально опасных действиях</div>
+    <div class="inblock">
+        <div class="danger">
+            <div class='intextimg'><img class='intextimg' src="img/danger.png" alt=""></div>
+            <div class="intexttext">Важные предупреждения о потенциально опасных действиях</div>
+        </div>
     </div>
-    <p>Тестовый абзац</p>
-    <h3>Как читать</h3>
+    <hr>
     <h3>Как работать с книгой</h3>
+    <hr>
     <h3>Поддержка книги и автора</h3>
-    
+    <hr>
+
 </body>
+
 </html>
